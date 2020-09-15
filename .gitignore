@@ -25,7 +25,7 @@ cs_fixer_tmp*
 build.properties
 tests/vendor
 tests/composer.phar
-samples/img/*
+#samples/img/*
 modules/boonex/ether
 modules/boonex/market_api
 modules/boonex/messenger
