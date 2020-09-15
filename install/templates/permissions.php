@@ -11,7 +11,8 @@
             <div class="bx-def-margin-bottom">
                 <?php echo _t('_sys_inst_msg_permissions_wrong'); ?>
             </div>
-            <a href="javascript:void(0);" class="bx-btn bx-btn-primary"><?php echo _t('_sys_inst_continue'); ?></a>
+            <!--! <a href="javascript:void(0);" class="bx-btn bx-btn-primary bx-btn-disabled"><?php #echo _t('_sys_inst_continue'); ?></a> -->
+			<a href="?action=site_config" class="bx-btn bx-btn-primary"><?php echo _t('_sys_inst_continue'); ?></a>
         <?php endif; if ($bPermissionsOk): ?>
             <a href="?action=site_config" class="bx-btn bx-btn-primary"><?php echo _t('_sys_inst_continue'); ?></a>
         <?php endif; ?>
