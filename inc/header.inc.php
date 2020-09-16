@@ -2,7 +2,7 @@
 
 define('BX_DOL', 1);
 
-define('BX_DOL_URL_ROOT', 'https://naval.frb.io'); ///< site url
+define('BX_DOL_URL_ROOT', 'https://naval.frb.io/'); ///< site url
 
 define('BX_DIRECTORY_PATH_ROOT', '/srv/app/naval/htdocs/'); ///< site path
 
