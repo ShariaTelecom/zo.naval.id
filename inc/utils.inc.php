@@ -743,7 +743,7 @@ function bx_import($sClassName, $mixedModule = array())
         if (0 === strncmp($sClassName, 'BxDolStudio', 11))
             require_once(BX_DOL_DIR_STUDIO_CLASSES . $sClassName . '.php');
         else
-            require_once('inc/classes/BxDol.php');
+            require_once(BX_DIRECTORY_PATH_CLASSES . $sClassName . '.php');
         return;
     }
 
