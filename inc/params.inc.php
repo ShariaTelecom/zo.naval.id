@@ -88,7 +88,8 @@ define('BX_ACCOUNT_CONFIRMATION_PHONE', 'phone');
 define('BX_ACCOUNT_CONFIRMATION_EMAIL_PHONE', 'email_and_phone');
 
 //--- Include files needed for basic functionality ---//
-require_once(BX_DIRECTORY_PATH_CLASSES . 'BxDol.php');
+#require_once(BX_DIRECTORY_PATH_CLASSES . 'BxDol.php');
+require_once('inc/classes/BxDol.php');
 require_once(BX_DIRECTORY_PATH_INC . 'utils.inc.php');
 require_once(BX_DIRECTORY_PATH_INC . 'version.inc.php');
 
