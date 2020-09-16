@@ -4,7 +4,7 @@ define('BX_DOL', 1);
 
 define('BX_DOL_URL_ROOT', 'https://naval.frb.io'); ///< site url
 
-define('BX_DIRECTORY_PATH_ROOT', '/srv/app/naval/htdocs'); ///< site path
+define('BX_DIRECTORY_PATH_ROOT', '/srv/app/naval/htdocs/'); ///< site path
 
 define('BX_DATABASE_HOST', '%DB_HOST%'); ///< db host
 define('BX_DATABASE_SOCK', '%DB_SOCK%'); ///< db socket
