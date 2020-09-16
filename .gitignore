@@ -6,7 +6,7 @@
 #logs/*
 
 # Exclude main config file
-inc/header*
+#inc/header*
   
 # Exclude OS X folder attributes
 .DS_Store
