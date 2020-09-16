@@ -88,15 +88,15 @@ define('BX_ACCOUNT_CONFIRMATION_PHONE', 'phone');
 define('BX_ACCOUNT_CONFIRMATION_EMAIL_PHONE', 'email_and_phone');
 
 //--- Include files needed for basic functionality ---//
-require_once('inc/classes/BxDol.php');
-require_once('inc/utils.inc.php');
-require_once('inc/version.inc.php');
+require_once('classes/BxDol.php');
+require_once('utils.inc.php');
+require_once('version.inc.php');
 
 spl_autoload_register('bx_autoload');
 
 BxDolDb::getInstance()->cacheParams();
 
-require_once('inc/profiles.inc.php');
+require_once('profiles.inc.php');
 
 $o = new BxDolAlerts('system', 'begin', 0);
 $o->alert();
