@@ -6,12 +6,12 @@ define('BX_DOL_URL_ROOT', 'https://naval.frb.io'); ///< site url
 
 define('BX_DIRECTORY_PATH_ROOT', '/srv/app/naval/htdocs/'); ///< site path
 
-define('BX_DATABASE_HOST', '%DB_HOST%'); ///< db host
+define('BX_DATABASE_HOST', 'naval.mysql.us1.frbit.com'); ///< db host
 define('BX_DATABASE_SOCK', '%DB_SOCK%'); ///< db socket
-define('BX_DATABASE_PORT', '%DB_PORT%'); ///< db port
-define('BX_DATABASE_USER', '%DB_USER%'); ///< db user
-define('BX_DATABASE_PASS', '%DB_PASSWORD%'); ///< db password
-define('BX_DATABASE_NAME', '%DB_NAME%'); ///< db name
+define('BX_DATABASE_PORT', '3306'); ///< db port
+define('BX_DATABASE_USER', 'naval'); ///< db user
+define('BX_DATABASE_PASS', 'xloDt=p--XZp.cyefF+Lym+y'); ///< db password
+define('BX_DATABASE_NAME', 'naval'); ///< db name
 define('BX_DATABASE_ENGINE', 'MYISAM'); ///< db engine
 
 define('BX_SYSTEM_JAVA', '%JAVA_PATH%'); ///< path to java binary
