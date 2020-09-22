@@ -51,7 +51,7 @@ class BxDolStudioToolsAudit extends BxDol
             'allow_url_fopen' => array('op' => '=', 'val' => true, 'type' => 'bool'),
             'allow_url_include' => array('op' => '=', 'val' => false, 'type' => 'bool'),
             'magic_quotes_gpc' => array('op' => '=', 'val' => false, 'type' => 'bool', 'warn' => 1),
-            'memory_limit' => array('op' => '>=', 'val' => 128*1024*1024, 'type' => 'bytes', 'unlimited' => -1),
+            'memory_limit' => array('op' => '>=', 'val' => 64*1024*1024, 'type' => 'bytes', 'unlimited' => -1),
             'post_max_size' => array('op' => '>=', 'val' => 2*1024*1024, 'type' => 'bytes', 'warn' => 1),
             'upload_max_filesize' => array('op' => '>=', 'val' => 2*1024*1024, 'type' => 'bytes', 'warn' => 1),
             'register_globals' => array('op' => '=', 'val' => false, 'type' => 'bool'),
